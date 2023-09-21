@@ -1,0 +1,6 @@
+.searchResults {
+    height: 100%;
+    width: 48%;
+    background: linear-gradient(45deg, rgb(226, 169, 213), rgb(61, 4, 84));
+    margin: auto;
+}
