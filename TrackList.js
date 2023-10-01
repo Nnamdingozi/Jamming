@@ -1,14 +1,14 @@
 import React from "react";
 import styles from './TrackList.module.css'
 import SearchBar from "./SearchBar";
+import Track from "./Track";
 
-
-function TrackList(){
+function TrackList(props){
     return(
         <>
         <div className={styles.trackList}>
-            <ul></ul>
-        <SearchBar/>
+           <Track musicList ={props.musicList} />
+        <SearchBar name={'Save to AudioMax'} />
         </div>
         
         </>

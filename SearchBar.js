@@ -1,10 +1,10 @@
 import React from "react";
 import styles from'./SearchBar.module.css';
 
-function SearchBar(){
+function SearchBar(props){
 return (
     <div className={styles.search}>
-<p>Search</p>
+<p>{props.name}</p>
 
     </div>
 )
